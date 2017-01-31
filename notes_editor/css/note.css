@@ -1,0 +1,63 @@
+.note {
+	vertical-align: top;
+	display: inline-block;
+	width: 315px;
+	margin: 10px 5px;
+	background: hsl(41, 100%, 97%);
+	border-radius: 0 0 0px 0px;
+	border: 1px solid #e7e8ec;
+}
+.note .input {
+	z-index: 2;
+	overflow-y: auto;
+	width: 99.99%;
+	height: 290px;
+	display: block;
+	background: white;
+	font-size: 17px;
+	color: #333;
+	padding: 28px 12px;
+	border-radius: 0;
+}
+.note .input span {
+	color: #0099ff;
+	font-weight: 700;
+}
+.note .choose_color_wrapper, .note .delete_note_wrapper {
+	z-index: 2;
+	position: relative;
+}
+.note .choose_color_wrapper img, .note .delete_note_wrapper img {
+	width: 12px;
+	z-index: 2;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+	cursor: pointer;
+}
+.note .choose_color_wrapper img {
+	right: 40px;
+	width: 11px;
+}
+.note p {
+	margin-left: 10px;
+}
+.tags {
+	margin: 0px;
+	padding: 4px;
+	overflow: auto;
+	border-top: 1px solid #e7e8ec;
+}
+.tag {
+	display: inline-block;
+	margin: 4px 7px;
+	padding: 4px;
+	background: #e0474c;
+	color: white;
+	border-radius: 0px;
+}
+.tag img {
+	cursor: pointer;
+	margin-left: 8px;
+	margin-right: 4px;
+}
