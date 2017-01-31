@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>#GAMENAME</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/shop.css">
+		<link rel="stylesheet" type="text/css" href="css/levels.css">
+		<link rel="stylesheet" type="text/css" href="css/mainMenu.css">
+		<link rel="stylesheet" type="text/css" href="css/canvas.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<script src="js/localStorage/defaultStorageData.js" defer></script>
+		<script src="js/localStorage/goods.js" defer></script>
+		<script src="js/localStorage/level.js" defer></script>
+		<script src="js/localStorage/profile.js" defer></script>
+		<script src="js/html/myAdditionalDOMFunctions.js"></script>
+		<script src="js/html/mainMenu.js" defer></script>
+		<script src="js/html/footer.js" defer></script>
+		<script src="js/html/openCanvas.js" defer></script>
+		<script src="js/game/init.js" defer></script>
+		<script src="js/game/keyboard.js" defer></script>
+		<script src="js/game/subject.js" defer></script>
+		<script src="js/game/shield.js" defer></script>
+		<script src="js/game/ufo.js" defer></script>
+		<script src="js/game/fallingSubject.js" defer></script>
+		<script src="js/game/healthScale.js" defer></script>
+		<script src="js/game/player.js" defer></script>
+		<script src="js/game/game.js" defer></script>	
+		<script src="js/game/gameOver.js" defer></script>
+		<script src="js/main.js" defer></script>
+	</head>
+	<body>
+		<div id="shop" class="shop">
+			<div class="totalScore" id="totalScore"></div>
+			<div id="containerForGoods" class="containerForGoods"></div>
+		</div>
+		<div id="levels" class="levels">
+			<div class="selectLevelLabel">Select a level</div>
+			<div id="containerForLevels" class="containerForLevels"></div>
+		</div>
+		<div class="containerForMenuButtons" id="containerForMenuButtons">
+			<div class="menuButtons">
+				<div id="shopButton" class="menuItem rotated">
+					<h2>SHOP</h2>
+				</div>
+				<div id="playButton" class="menuItem rotated">
+					<h2>PLAY</h2>
+				</div>
+			</div>
+		</div>
+	
+		<h2 class="gameScore" id="gameScore">0</h2>
+		<div id="pageWrapper" class="pageWrapper"></div>
+		<div class="containerForCanvas" id="containerForCanvas">
+			<canvas id="gameScreen" class="gameScreen" width="800px" height="700px">Your browser doesn't support HTML5 canvas.</canvas>
+		</div>
+
+		<div id="footer" class="footer">
+			<div class="keyboardButtons">
+				<img src="images/html/keyboard.png" class="keyboard" id="keyboard">
+				<img src="images/html/f.png" class="key">
+				<img src="images/html/left.png" class="key">
+				<img src="images/html/right.png" class="key">
+			</div>
+			<div class="source-code">
+				<a href="https://github.com/LoonyWizard/sp-bob-game" target="_blank"><img src="images/html/code.png"></a>
+			</div>
+		</div>
+	</body>
+</html>

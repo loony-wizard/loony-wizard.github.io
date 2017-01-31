@@ -1,0 +1,55 @@
+.selectLevelLabel {
+	font-size: 27px;
+	font-weight: bold;
+	text-align: right;
+	color: #FFF;
+}
+.levels {
+	position: absolute;
+	top: 0;
+	right: -50vw;
+	width: 50vw;
+	height: 100vh;
+	background: #1E79F9;
+	padding: 30px 20px;
+	transition: right 0.7s ease-out;
+}
+.openedLevels {
+	right: 0;
+}
+.containerForLevels {
+	float: right;
+}
+.level {
+	display: inline-block;
+	transition:all 0.3s ease;
+	margin: 25px 40px;
+	padding: 10px;
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+}
+.level:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.15) rotateZ(-8deg);
+	-ms-transform: scale(1.15) rotateZ(-8deg);
+	transform: scale(1.15) rotateZ(-8deg);
+}
+#level0 {
+	/* the first level */
+	margin-top: 145px;
+}
+.level h2 { /* name of the level */
+	display: inline;
+	color: #fff;
+	font-size: 31px;
+	text-align: right;
+}
+.level h3 { /* best score on this level */
+	display: inline;
+	color:#E1F3FF;
+	font-size: 22px;
+	margin: -18px auto 24px auto;
+	text-align: right;
+}

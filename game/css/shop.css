@@ -1,0 +1,53 @@
+.shop {
+	position: absolute;
+	top: 0;
+	left: -50vw;
+	width: 50vw;
+	height: 100vh;
+	background: #F91E6D;
+	padding: 30px 20px;
+	transition: left 0.7s ease-out;
+}
+.openedShop {
+	left: 0;
+}
+.totalScore {
+	font-size: 27px;
+	font-weight: bold;
+	color: #FFF;
+}
+.goods {
+	margin: 40px;
+	width: 60%;
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+}
+.goods h2 {
+	/* the name of the goods */
+	color: #fff;
+	font-size: 31px;
+	text-align: left;
+}
+.goods p {
+	/* the description of the goods */
+	color: #FFE1E9;
+	margin-left: -25px;
+}
+.goods .upgradeBtn {
+	transition:all 0.3s ease;
+	display: inline-block;
+	background: white;
+	border: solid 2px black;
+	padding: 7px 13px;
+	margin: 10px 0 0 -25px;
+	box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.7);
+}
+.goods .upgradeBtn:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
