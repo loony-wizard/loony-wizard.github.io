@@ -1,0 +1,8 @@
+.container {
+  max-width: 1000px;
+}
+.container .col-sm,
+.container .col-md {
+  background: #bbb;
+  border: 1px solid #ccc;
+}
