@@ -3,6 +3,5 @@
 }
 .container .col-sm,
 .container .col-md {
-  background: #bbb;
-  border: 1px solid #ccc;
+  padding: 12px 15px;
 }
