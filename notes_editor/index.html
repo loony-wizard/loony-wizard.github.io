@@ -8,30 +8,41 @@
 	<script src="dist/js/search_notes.js" defer></script>
 	<script src="dist/js/note.js" defer></script>
 	<script src="dist/js/main.js" defer></script>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
 	<!-- *** Styles *** -->
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/note.css">
-	<link rel="stylesheet" type="text/css" href="css/mybtn.css">
 </head>
 <body>
 	<!-- *** Header *** -->
-	<header>
+	<div class="header">
 		<div class="container">
-			<input id="search" placeholder="Search by tags..."></input>
-			<div class="my_btn" id="addNote">Add new note</div>
+			<div class="row">
+				<input class="col-sm-8" id="search" placeholder="Search by tags..."></input>
+				<div class="col-sm">
+					<div class="my-btn" id="addNote">Add note</div>
+				</div>
+			</div>
 		</div>
-	</header>
+	</div>
 	<!-- *** Notes *** -->
 	<main>
-		<div id="notes"></div>
+		<div class="container notes-container">
+			<div class="row notes" id="notes"></div>
+		</div>	
 	</main>
 	<!-- *** footer *** -->
-	<footer>
+	<!-- <footer>
 		<div class="container">
 			<p><small><a href="https://github.com/loonywizard/noteseditor">GITHUB</a></small></p>
 		</div>
-	</footer>
+	</footer> -->
 </body>
 </html>

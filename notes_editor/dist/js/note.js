@@ -49,7 +49,7 @@ var Note = function () {
 		value: function createNote() {
 
 			var div = document.createElement('div');
-			div.className = 'note';
+			div.className = 'note col-lg-4 col-sm-6';
 			div.id = this.prototype.idForNewNote();
 
 			var deleteNoteWrapper = document.createElement('div');
