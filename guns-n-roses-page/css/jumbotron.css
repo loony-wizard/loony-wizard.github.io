@@ -1,0 +1,47 @@
+.jumbotron {
+  padding: 20px 150px 60px 150px;
+  width: 100%;
+  text-align: center; }
+  .jumbotron img {
+    display: inline-block;
+    margin: 10px 0; }
+  .jumbotron p.lead {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 20px auto 50px auto;
+    color: #868e96; }
+  .jumbotron-btn {
+    cursor: pointer;
+    margin: 5px auto 30px auto;
+    display: inline-block;
+    padding: 7px 15px; }
+    .jumbotron-btn a {
+      font-size: 1.35rem;
+      border-bottom: 1px #868e96 solid;
+      margin: 0;
+      padding: 0;
+      color: #868e96;
+      text-decoration: none; }
+    .jumbotron-btn:hover {
+      background: #868e96; }
+      .jumbotron-btn:hover a {
+        border-bottom: 1px white solid;
+        color: white; }
+
+@media screen and (max-width: 1200px) {
+  .jumbotron .guns {
+    width: 400px; } }
+
+@media screen and (max-width: 1000px) {
+  .jumbotron {
+    padding: 60px 70px; } }
+
+@media screen and (max-width: 600px) {
+  .jumbotron {
+    padding: 60px 10px; }
+  .jumbotron .guns {
+    width: 270px; } }
+
+@media screen and (max-width: 400px) {
+  .jumbotron .band-name {
+    width: 200px; } }

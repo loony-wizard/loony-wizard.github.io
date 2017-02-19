@@ -1,0 +1,7 @@
+.nav {
+  margin: 30px 0;
+  height: calc(100% - 60px);
+  border-right: #dee2e6 1px solid; }
+  .nav img {
+    display: inline-block;
+    margin: 10px auto 100px auto; }
