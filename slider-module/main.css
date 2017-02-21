@@ -1,0 +1,27 @@
+body, html {
+	background: #EEE;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	font-family:
+		Consolas,
+		Menlo,
+		Monaco,
+		Lucida Console,
+		Liberation Mono,
+		DejaVu Sans Mono,
+		Bitstream Vera Sans Mono,
+		Courier New,
+		monospace,
+		serif;
+
+	-webkit-user-select: none;
+	-safary-user-select: none;
+	 -opera-user-select: none;
+		   -user-select: none;
+
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

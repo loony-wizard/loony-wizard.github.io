@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  
+  background: #ccc;
+  text-align: center;
+  
+}
+
+#slider ul li img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+#hint {
+  padding: 20px;
+  font-family: sans-serif;
+  position: absolute;
+  color: white;
+  font-size: 1.4rem;
+  z-index: 2;
+}
