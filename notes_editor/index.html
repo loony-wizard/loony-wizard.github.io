@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script>
+      if (location.protocol !== "https:") {
+        location.href = "https:" + location.hostname + location.pathname + location.hash;
+      }
+    </script>
 	<title>Notes editor</title>
 	<meta charset="utf-8">
 	<!-- *** Scripts *** -->

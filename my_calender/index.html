@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<script>
+      if (location.protocol !== "https:") {
+        location.href = "https:" + location.hostname + location.pathname + location.hash;
+      }
+    </script>
     <meta charset="UTF-8">
     <title>Мой календарь</title>
     <meta name="author" content="Vladimir Nikitin">

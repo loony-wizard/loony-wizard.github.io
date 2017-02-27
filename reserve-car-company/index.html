@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+      if (location.protocol !== "https:") {
+        location.href = "https:" + location.hostname + location.pathname + location.hash;
+      }
+    </script>
     <title>Reserve a car here!</title>
     <!-- Required meta tags for mobile phones -->
     <meta charset="utf-8">
