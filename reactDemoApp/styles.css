@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body,
+#root,
+.app,
+.field {
+	height: 100%;
+}
+
+.no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.app {
+	display: flex;
+}
+
+/**
+ * Info styles
+ */
+.info {
+	flex: 2;
+	min-height: 100%;
+	overflow-y: auto;
+	background: #E7F5FD;
+}
+
+.circle-small,
+.square-small {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+.figure-info .data {
+	display: inline-block;
+	vertical-align: top;	
+}
+.figure-info span {
+	margin: 5px;
+}
+
+.circle-small {
+	border-radius: 50%;
+}
+
+/**
+ * Field styles
+ */
+.field {
+	flex: 5;
+	position: relative;
+	overflow: hidden;
+}
+
+.circle,
+.square {
+	position: absolute;
+	cursor: pointer;
+}
+
+.circle {
+	border-radius: 50%;
+}
